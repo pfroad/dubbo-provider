@@ -7,5 +7,5 @@ import com.qmall.platform.model.User;
  */
 public interface UserService {
     String sayHello(String msg);
-    User getUser(long id);
+    User getUser(Integer id);
 }

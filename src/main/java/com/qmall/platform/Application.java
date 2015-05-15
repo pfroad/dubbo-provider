@@ -23,11 +23,15 @@ public class Application {
         try {
             // init sprint context
             SpringContext.init();
-            UserDao user = (UserDao) SpringContext.getContext().getBean("userDao");
+//            UserDao user = (UserDao) SpringContext.getContext().getBean("userDao");
+//            System.out.println(System.identityHashCode(user));
+//            UserDao user2 = (UserDao) SpringContext.getContext().getBean("userDao");
+//            System.out.println(System.identityHashCode(user2));
             // run provider
            //ClassPathXmlApplicationContext customer = new ClassPathXmlApplicationContext(new String[]{"classpath*:/providers*//***/*//*.xml"});
 //            customer.start();
 //            customer.registerShutdownHook();   // register shutdown hook
+//            this.getClass().getClassLoader().
         } catch (Exception e) {
 
         }
